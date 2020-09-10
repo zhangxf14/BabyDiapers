@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BabyDiapers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_calibrate">Bluetooth distance calibration</string>
+    <string name="btn_search">Search</string>
+	<string name="txt_progress">Wet Progress:</string>
+	<string name="app_login">Add User</string>
+	<string name="app_user_list">User List</string>
+	
+	<string name="title_activity_peripheral">Peripheral</string>
+    <string name="title_activity_hrdemo">HRDemoActivity</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:background="@color/anction_color">
+
+    <com.example.babydiapers.CircleImageView
+        android:id="@+id/ivPictrue"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/ic_launcher" />
+  
+<!--    	 android:gravity="center" -->
+<!--         android:layout_gravity="left|center" -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/anction_color"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+   
+      
+</FrameLayout> 
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安全距离（米）：" />
+
+    <EditText
+        android:id="@+id/etDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="请输入宝宝不能离开您的视线范围"
+        android:inputType="numberDecimal"
+        android:scrollHorizontally="true"
+        android:text="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能纸尿裤</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置安全距离</string>
+    <string name="action_disconnect">断开设备连接</string>
+     <string name="action_calibrate">蓝牙距离校准</string>
+    <string name="action_babylogs">宝宝日志</string>
+    <string name="btn_search">搜索</string>
+	<string name="txt_progress">尿湿进度:</string>
+	<string name="app_login">添加成员</string>
+	<string name="app_user_list">成员列表</string>
+	<string name="app_baby_log">宝宝日志</string>
+	
+	<string name="title_activity_peripheral">Peripheral</string>
+    <string name="title_activity_hrdemo">HRDemoActivity</string>
+</resources>
